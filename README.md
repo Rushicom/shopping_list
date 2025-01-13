@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # shoping_list
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# shopping_list
+>>>>>>> 072e89c365bf0c57a80e3b38a94f8dc691227bcd
