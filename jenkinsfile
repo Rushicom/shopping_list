@@ -6,8 +6,8 @@ pipeline {
         // FLUTTER_HOME = "/home/ubuntu/flutter"
         // ANDROID_HOME = "/home/ubuntu/android-sdk"
         // PATH = "${FLUTTER_HOME}/bin:${ANDROID_HOME}/cmdline-tools/bin:${ANDROID_HOME}/platform-tools:${env.PATH}"
-        FLUTTER_HOME = "/home/worker01/flutter"
-        ANDROID_HOME = "/home/worker01/android-sdk"
+        FLUTTER_HOME = "/home/ubantu/flutter"
+        ANDROID_HOME = "/home/ubantu/android-sdk"
         PATH = "${FLUTTER_HOME}/bin:${ANDROID_HOME}/cmdline-tools/bin:${ANDROID_HOME}/platform-tools:${env.PATH}"
     }
 
@@ -41,7 +41,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Ensure the safe directory configuration for Git
-                sh 'git config --global --add safe.directory /home/ubuntu/flutter'
+                sh 'git config --global --add safe.directory /home/ubantu/flutter'
                 sh '${FLUTTER_HOME}/bin/flutter clean'
                 sh '${FLUTTER_HOME}/bin/flutter clean build'
                 // Run flutter pub get to install dependencies
