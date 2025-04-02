@@ -30,9 +30,9 @@ pipeline {
                     // url: 'https://github.com/SaffronEdgeTech/SaffronSync.git',
                     // branch: 'main',
                     // credentialsId: 'f2e74fff-93c9-497f-b444-72352c75d475'
-                     url: 'https://github.com/Rushicom/shopping_list.git',
+                    url: 'https://github.com/Rushicom/shopping_list.git',
                     branch: 'main',
-                    credentialsId: '3c505f4d-dc22-45b0-8716-2baa6d8ca436'
+                    credentialsId: 'eb3f475b-1187-4fdc-81b0-d71d4daf3612'
 
                 )
             }
